@@ -1,0 +1,13 @@
+
+#countdown {
+    font-family: Arial, Helvetica;    
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+   }
