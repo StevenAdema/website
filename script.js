@@ -15,8 +15,8 @@ function CountDownTimer(date, id) {
          if (distance < 0) {
 
              clearInterval(timer);
-             document.getElementById(id).innerHTML = 'EXPIRED!';
-
+             document.getElementById(id).innerHTML = 'DONE!!!';
+            
              return;
          }
          var days = Math.floor(distance / _day);
@@ -27,8 +27,11 @@ function CountDownTimer(date, id) {
          document.getElementById(id).innerHTML = days + 'days ';
          document.getElementById(id).innerHTML += hours + 'hrs ';
          document.getElementById(id).innerHTML += minutes + 'mins ';
-         document.getElementById(id).innerHTML += seconds + 'secs';
+         document.getElementById(id).innerHTML += seconds + 's';
      }
 
      timer = setInterval(showRemaining, 1000);
  }
+
+ 
+ 
