@@ -1,6 +1,6 @@
 body {
     background-image: url("ariana3.png");
-    background-size: auto 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: left top;
    }
@@ -13,19 +13,19 @@ body {
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: 100px;
-    font-size: 3.5em;
+    font-size: 20px;
     color: #ff9999;
 }
 
 #precountdown {
-    position: relative;
-    top: 27%;
-    left: 30%;
+    position: absolute;
+    top: 25%;
+    right: 2%;
     font-family: "Myriad Pro Regular", "Myriad Pro", Arial, Helvetica;      
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: 100px;
-    font-size: 3.5em;
+    font-size: 20px;
     color: #ff9999;
 }
 
