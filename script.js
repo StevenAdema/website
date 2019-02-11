@@ -1,4 +1,4 @@
-CountDownTimer('02/12/2019 7:30 AM', 'countdown');
+CountDownTimer('02/12/2019 9:00 AM', 'countdown');
 
 function CountDownTimer(date, id) {
      var end = new Date(date);

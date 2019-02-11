@@ -1,13 +1,29 @@
+body {
+    background-image: url("ariana2.png");
+    background-size: cover;
+   }
 
 #countdown {
-    font-family: Arial, Helvetica;    
+    position: absolute;
+    top: 650px;
+    right: 50px;
+    font-family: "Myriad Pro Regular", "Myriad Pro", Arial, Helvetica;    
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 5em;
+    color: #ff9999;
 }
 
-body {
-    background-image: url("paper.gif");
-    background-color: #cccccc;
-   }
+#precountdown {
+    position: relative;
+    top: 550px;
+    left: 730px;
+    font-family: "Myriad Pro Regular", "Myriad Pro", Arial, Helvetica;      
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 5em;
+    color: #ff9999;
+}
+
